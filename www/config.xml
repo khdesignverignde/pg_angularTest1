@@ -2,7 +2,7 @@
 <widget id="com.phonegap.pg_angularTest1" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>pg_angularTest1</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        includes angular to a pg-app
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team

@@ -16,9 +16,11 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
 var app = {
     // Application Constructor
     initialize: function() {
+        console.log('init')
         this.bindEvents();
     },
     // Bind Event Listeners
@@ -44,6 +46,12 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
-        console.log('Received Event: ' + id);
+        console.log('Received Event: ' + id );
+        
+//        $.getJSON('js/data/testData.json', function(data){
+//            $('jqJsonTest').html(data)
+//            
+//        });
+        
     }
 };
