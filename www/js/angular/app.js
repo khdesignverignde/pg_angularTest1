@@ -308,7 +308,6 @@
         
         this.testData = testData;
         
-        console.log($http);
         
 //        $http.get('js/data/testData.json').success(function(data){
 //            pgtest.testData = data;
